@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trip Planner | Build a Day-by-Day Itinerary in AUD | Fieldnote Travel</title>
+<meta name="description" content="Free interactive trip planner for Australian travellers. Add days, add time-stamped stops, record travel time and see your trip cost in Australian dollars as you build.">
+<link rel="canonical" href="https://www.fieldnotetravel.com.au/trip-planner.html">
+<meta name="theme-color" content="#F7F4EE">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fieldnote Travel">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Trip Planner | Build a Day-by-Day Itinerary in AUD">
+<meta property="og:description" content="Add days, add time-stamped stops, record travel time and see your trip cost in Australian dollars as you build.">
+<meta property="og:url" content="https://www.fieldnotetravel.com.au/trip-planner.html">
+<meta property="og:image" content="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&h=630&q=70">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Spectral:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Fieldnote Travel","url":"https://www.fieldnotetravel.com.au/","logo":"https://www.fieldnotetravel.com.au/assets/favicon.ico","address":{"@type":"PostalAddress","streetAddress":"Suite 4, Level 2, 118 Kippax Street","addressLocality":"Surry Hills","addressRegion":"NSW","postalCode":"2010","addressCountry":"AU"},"contactPoint":{"@type":"ContactPoint","telephone":"+61-2-8000-0000","contactType":"customer support","email":"hello@fieldnotetravel.com.au","areaServed":"AU"}}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a class="wordmark" href="index.html">Fieldnote<span>.</span><small>Travel field guides &amp; planner</small></a>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="trip-planner.html" aria-current="page">Trip Planner</a></li>
+        <li><a href="itineraries.html">Itineraries</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary header-cta" href="pricing.html">Plan a Trip</a>
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="navDrawer">
+      <span class="nav-toggle-bars" aria-hidden="true"><i></i></span> Menu
+    </button>
+  </div>
+</header>
+
+<div class="nav-drawer" id="navDrawer" role="dialog" aria-modal="true" aria-label="Site menu">
+  <div class="container">
+    <div class="nav-drawer-top">
+      <span class="wordmark">Fieldnote<span>.</span></span>
+      <button class="drawer-close" data-drawer-close>Close</button>
+    </div>
+    <ul>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="trip-planner.html" aria-current="page">Trip Planner</a></li>
+      <li><a href="itineraries.html">Itineraries</a></li>
+      <li><a href="guides.html">Guides</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <ul class="drawer-secondary">
+      <li><a href="how-it-works.html">How It Works</a></li>
+      <li><a href="pricing.html">Pricing &amp; Plans</a></li>
+      <li><a href="packing-checklists.html">Packing Checklists &amp; Tools</a></li>
+      <li><a href="travel-insurance-guide.html">Travel Insurance Guide</a></li>
+      <li><a href="for-travel-agents.html">For Travel Agents</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <a class="btn btn-primary btn-block" href="pricing.html">See plans</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="container">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>Trip Planner</li>
+      </ol>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-grid">
+        <span class="sec-index">Tool</span>
+        <div>
+          <h1>Trip Planner</h1>
+          <p class="lede">Build the trip a day at a time. Add stops with a time and a cost in Australian dollars, and the totals update as you type. Nothing is saved to our servers on this page and no account is needed to use it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--flush">
+    <div class="container">
+
+      <form id="tripPlanner" class="planner-layout" novalidate>
+        <div>
+
+          <!-- ---------- 01 Trip basics ---------- -->
+          <div class="sec-head">
+            <span class="sec-index">01</span>
+            <div><h2>Trip basics</h2></div>
+          </div>
+
+          <div class="form-grid form-grid-2" style="margin-bottom:32px;">
+            <div class="field">
+              <label for="plannerName">Trip name</label>
+              <input type="text" id="plannerName" placeholder="Tasmania, October" autocomplete="off">
+            </div>
+            <div class="field">
+              <label for="plannerOrigin">Departing from</label>
+              <select id="plannerOrigin">
+                <option>Sydney (SYD)</option>
+                <option>Melbourne (MEL)</option>
+                <option>Brisbane (BNE)</option>
+                <option>Perth (PER)</option>
+                <option>Adelaide (ADL)</option>
+                <option>Canberra (CBR)</option>
+                <option>Hobart (HBA)</option>
+                <option>Darwin (DRW)</option>
+                <option>Gold Coast (OOL)</option>
+                <option>Cairns (CNS)</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="plannerStart">Start date</label>
+              <span class="field-hint">Dates are shown as DD/MM/YYYY throughout the site.</span>
+              <input type="date" id="plannerStart">
+            </div>
+            <div class="field">
+              <label for="plannerTravellers">Number of travellers</label>
+              <input type="number" id="plannerTravellers" min="1" max="12" step="1" value="2">
+            </div>
+          </div>
+
+          <!-- ---------- 02 Days ---------- -->
+          <div class="sec-head">
+            <span class="sec-index">02</span>
+            <div>
+              <h2>Days and stops</h2>
+              <p>Add a stop with a time, a name and a cost. Remove anything with the <span aria-hidden="true">&times;</span> button. Days renumber automatically.</p>
+            </div>
+          </div>
+
+          <div data-planner-days></div>
+
+          <div class="btn-row" style="margin-bottom:40px;">
+            <button type="button" class="btn btn-primary" data-add-day>Add another day</button>
+            <button type="button" class="btn btn-ghost" data-print>Print this plan</button>
+          </div>
+
+          <!-- ---------- 03 Notes ---------- -->
+          <div class="sec-head">
+            <span class="sec-index">03</span>
+            <div><h2>Notes for the trip</h2></div>
+          </div>
+          <div class="field" style="margin-bottom:32px;">
+            <label for="plannerNotes">Anything you need to remember</label>
+            <span class="field-hint">Passport expiry, travel adaptor type, insurance policy number, the name of the person collecting the hire car. This stays in your browser.</span>
+            <textarea id="plannerNotes" placeholder="Type C and F adaptors. Adaptor bought. Check passport expiry is at least six months past return date."></textarea>
+          </div>
+
+        </div>
+
+        <!-- ---------- Summary ---------- -->
+        <aside class="planner-summary" aria-label="Trip summary">
+          <div class="summary-box">
+            <h2>Trip summary</h2>
+            <div class="summary-row"><span>Days planned</span><span class="sv" data-summary-days>0</span></div>
+            <div class="summary-row"><span>Stops added</span><span class="sv" data-summary-stops>0</span></div>
+            <div class="summary-row"><span>Average per day</span><span class="sv" data-summary-perday>$0</span></div>
+            <div class="summary-row"><span>Cost for one traveller</span><span class="sv" data-summary-total>$0</span></div>
+            <div class="summary-total"><span>Total, all travellers</span><span class="sv" data-summary-perperson>$0</span></div>
+            <p style="font-size:13px;color:var(--muted);margin:16px 0 0;">Totals cover only what you enter here. Flights, insurance and accommodation are not added automatically.</p>
+          </div>
+
+          <div class="callout" style="margin-top:24px;">
+            <p class="label">Saving your trip</p>
+            <p>This page works without an account so you can try it. To save a trip, share it or export a PDF, you will need a free or Pro account.</p>
+            <p style="margin-bottom:0;"><a class="link-more" href="pricing.html">See plans and pricing</a></p>
+          </div>
+
+          <div class="aff-note" style="margin-top:24px;">
+            <strong>Advertising disclosure.</strong> Some links on Fieldnote go to accommodation, flight, car hire and tour partners. If you book through one we may earn a commission at no extra cost to you. We are paid the same regardless of which option you pick. <a href="affiliate-disclosure.html">Full disclosure</a>.
+          </div>
+        </aside>
+      </form>
+
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="tips-h">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-index">04</span>
+        <div>
+          <h2 id="tips-h">Getting a realistic day out of the planner</h2>
+          <p class="lede">Four habits that separate a plan that survives contact with a real holiday from one that does not.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-2 reveal">
+        <article class="card card--plain">
+          <h3>Put the travel time in first</h3>
+          <p>Before you add attractions, add the driving, the ferry and the train. A day with two hours of transport has room for two stops, not five. Most over-planned days are transport days in disguise.</p>
+        </article>
+        <article class="card card--plain">
+          <h3>Cost the boring things</h3>
+          <p>Parking, coffee, an entry fee, a second coffee, dinner. Individually small, collectively the difference between a <span class="num">$120</span> day and a <span class="num">$210</span> day. The boring line items are where budgets actually go.</p>
+        </article>
+        <article class="card card--plain">
+          <h3>Leave one afternoon per three days empty</h3>
+          <p>Weather, illness, a place you liked more than expected. If every afternoon is booked, the first thing that goes wrong ruins the rest of the plan.</p>
+        </article>
+        <article class="card card--plain">
+          <h3>Plan arrival day as a half day</h3>
+          <p>An overnight flight from the east coast lands you functional but not sharp. Book accommodation you can walk to, eat early, and start properly the next morning.</p>
+        </article>
+      </div>
+
+      <div class="btn-row reveal" style="margin-top:32px;">
+        <a class="btn btn-secondary" href="itineraries.html">See finished itineraries</a>
+        <a class="btn btn-ghost" href="destinations.html">Browse destination guides</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="wordmark">Fieldnote<span>.</span><small>Travel field guides &amp; planner</small></span>
+        <p>An Australian trip organiser and travel planner. We publish destination field guides, sample itineraries and a free day-by-day planning tool.</p>
+        <form class="newsletter-form" data-validate data-success="#newsletterSuccess" novalidate>
+          <div class="field">
+            <label for="footerEmail">Trip planning notes, once a month</label>
+            <input type="email" id="footerEmail" name="email" data-label="Email address" required autocomplete="email" placeholder="you@example.com.au">
+            <span class="field-error" role="alert"></span>
+          </div>
+          <div class="checkbox-row">
+            <input type="checkbox" id="footerConsent" name="consent" data-label="Consent" required>
+            <label for="footerConsent">I agree to receive the Fieldnote email newsletter.</label>
+          </div>
+          <span class="field-error" role="alert"></span>
+          <button class="btn btn-primary btn-sm" type="submit" style="margin-top:12px;">Subscribe</button>
+          <p class="newsletter-note">Sent by Fieldnote Travel Pty Ltd. Consent is express and recorded, every email identifies us as the sender and carries a working unsubscribe link, in line with the Spam Act 2003 (Cth). We do not sell your address. See our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+        </form>
+        <div class="form-success" id="newsletterSuccess" hidden>
+          <h3>Check your inbox</h3>
+          <p>We have sent a confirmation email. Your address is not added to the list until you confirm it.</p>
+        </div>
+      </div>
+      <nav aria-labelledby="f-plan">
+        <h2 id="f-plan">Plan</h2>
+        <ul>
+          <li><a href="trip-planner.html">Trip Planner</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="itineraries.html">Sample Itineraries</a></li>
+          <li><a href="packing-checklists.html">Packing Checklists &amp; Tools</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="pricing.html">Pricing &amp; Plans</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="f-read">
+        <h2 id="f-read">Read</h2>
+        <ul>
+          <li><a href="guides.html">Travel Guides</a></li>
+          <li><a href="guide-first-international-trip.html">First Trip Overseas</a></li>
+          <li><a href="guide-annual-leave-planning.html">Annual Leave Calendar</a></li>
+          <li><a href="guide-esim-and-roaming.html">eSIM &amp; Roaming</a></li>
+          <li><a href="travel-insurance-guide.html">Travel Insurance Guide</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="f-company">
+        <h2 id="f-company">Company</h2>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="for-travel-agents.html">For Travel Agents</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="accessibility-statement.html">Accessibility</a></li>
+          <li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h2>Contact</h2>
+        <!-- PLACEHOLDER — REPLACE WITH REAL VERIFIED INFORMATION BEFORE LAUNCH -->
+        <address>
+          <strong>Fieldnote Travel Pty Ltd</strong><br>
+          ABN 00 000 000 000<br>
+          Suite 4, Level 2, 118 Kippax Street<br>
+          Surry Hills NSW 2010, Australia<br>
+          <a href="tel:+61280000000">+61 2 8000 0000</a><br>
+          <a href="mailto:hello@fieldnotetravel.com.au">hello@fieldnotetravel.com.au</a>
+        </address>
+        <p style="font-size:13px;color:#C2D2DB;">Support hours 9:00 to 17:00 AEST, Monday to Friday.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <ul class="footer-legal-links">
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-service.html">Terms of Service</a></li>
+        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+        <li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        <li><a href="travel-advice-disclaimer.html">Travel Advice Disclaimer</a></li>
+        <li><a href="refund-cancellation-policy.html">Refund &amp; Cancellation Policy</a></li>
+        <li><a href="accessibility-statement.html">Accessibility Statement</a></li>
+      </ul>
+      <p>&copy; <span data-year>2026</span> Fieldnote Travel Pty Ltd. All rights reserved. Prices shown in Australian dollars and include GST.</p>
+      <p>Fieldnote Travel is not a licensed financial adviser, insurance broker or travel agent. Visa, entry and safety information changes without notice: always check <a href="https://www.smartraveller.gov.au" rel="noopener nofollow" target="_blank">Smartraveller</a> and official government sources before you travel.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" type="button">Top</button>
+
+<aside class="cookie-banner" id="cookieBanner" hidden aria-label="Cookie consent">
+  <div class="container cookie-inner">
+    <div>
+      <h2>Cookies on this site</h2>
+      <p>We use essential cookies to make the site work. With your consent we would also like to use analytics cookies to understand which guides are useful, and advertising cookies, including Google advertising cookies, to measure our ads. No non-essential cookie is set until you choose. Read the <a href="cookie-policy.html">Cookie Policy</a>.</p>
+      <div class="cookie-prefs" data-cookie-prefs hidden>
+        <div class="checkbox-row"><input type="checkbox" id="cookieEssential" checked disabled><label for="cookieEssential"><strong>Essential</strong> — required for the site to function. Always on.</label></div>
+        <div class="checkbox-row"><input type="checkbox" id="cookieAnalytics"><label for="cookieAnalytics"><strong>Analytics</strong> — anonymous page and guide usage statistics.</label></div>
+        <div class="checkbox-row"><input type="checkbox" id="cookieAdvertising"><label for="cookieAdvertising"><strong>Advertising</strong> — Google advertising cookies used to measure and personalise ads.</label></div>
+        <button class="btn btn-secondary btn-sm" type="button" data-cookie-save>Save preferences</button>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-primary" type="button" data-cookie-accept>Accept all</button>
+      <button class="btn btn-secondary" type="button" data-cookie-reject>Reject non-essential</button>
+      <button class="btn btn-ghost" type="button" data-cookie-manage aria-expanded="false">Manage preferences</button>
+    </div>
+  </div>
+</aside>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

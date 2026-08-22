@@ -1,0 +1,118 @@
+FIELDNOTE TRAVEL — GOOGLE ADS DEMAND GEN CAMPAIGN ASSETS
+=========================================================
+
+NOTE: All copy in this file is a starting draft. Before running, it must be
+reviewed against the current Google Ads editorial policy and against the
+advertiser's own substantiated claims. Any statement about pricing, features,
+free tiers or trip counts must be verified against the live product and the
+published Pricing page. Character counts in brackets include spaces and were
+counted at the time of writing; re-count after any edit.
+
+Australian English spelling throughout. No all-caps words except the genuine
+acronyms AUD and PDF. No superlatives, no fake urgency, no prices, no third
+party brand names. Every line is written to stand alone, because Google mixes
+assets automatically.
+
+
+-----------------------------------------
+BUSINESS NAME — 25 character maximum (1)
+-----------------------------------------
+Fieldnote Travel [16]
+
+
+-----------------------------------------
+HEADLINES — 40 character maximum (15)
+-----------------------------------------
+Plan Your Trip Day By Day [25]
+Day By Day Travel Planning [26]
+Organise Your Whole Trip [24]
+Travel Planner For Australians [30]
+Build An Itinerary In Minutes [29]
+See Your Trip Cost In AUD [25]
+Trip Budgeting In Australian Dollars [36]
+Plan Flights Stays And Days [27]
+Keep Every Booking In One Place [31]
+Family Trip Planning Made Simple [32]
+Group Travel Without The Chaos [30]
+Planning A First Trip Overseas [30]
+Make Annual Leave Go Further [28]
+Long Haul Trips, Planned Properly [33]
+Sample Itineraries And Day Plans [32]
+
+
+-----------------------------------------
+LONG HEADLINES — 90 character maximum (10)
+-----------------------------------------
+Build a day by day travel plan with stops, travel times and costs in AUD [72]
+A trip organiser written for Australian travellers, with prices in Australian dollars [85]
+See what each day costs before you book, with travel time between every stop [76]
+Keep flights, stays, transfers and day plans together in one place [66]
+Free for your first two trips, with day plan cards and budget totals included [77]
+Destination guides with seasons, flight time from Sydney and daily budgets in AUD [81]
+Turn a rough idea into a printable day by day plan you can actually follow [74]
+Plan around annual leave, school holidays and public holidays in your state [75]
+Sample itineraries for Tasmania, the Great Ocean Road, Bali and Japan [69]
+Share a read only trip link with the people you are travelling with [67]
+
+
+-----------------------------------------
+DESCRIPTIONS — 90 character maximum (10)
+-----------------------------------------
+Add days, add stops, and watch the total update as you plan. Free for two trips. [80]
+Every day card shows the stops, the travel time between them and the cost. [74]
+Written for Australian travellers, with costs in Australian dollars throughout. [79]
+Seasons are written for the Southern Hemisphere, not borrowed from elsewhere. [77]
+Plan a family trip once, then share the link so everyone sees the same plan. [76]
+First trip overseas? Passports, visas, insurance and money, in order. [69]
+Work out how far your annual leave stretches before you book anything. [70]
+Long haul from Australia takes planning. Start with the days, not the flights. [78]
+Print a clean itinerary, or export a PDF for offline use on a paid plan. [72]
+Free tier or a paid plan. Pricing, billing and cancellation stated up front. [76]
+
+
+-----------------------------------------
+CALL TO ACTION SUGGESTIONS (5)
+-----------------------------------------
+Selected from Google's standard call to action set for Demand Gen campaigns.
+
+Learn more [10]
+Get started [11]
+Sign up [7]
+See more [8]
+Subscribe [9]
+
+
+-----------------------------------------
+LANDING PAGE MAPPING
+-----------------------------------------
+Whatever an asset promises must appear prominently on the page it lands on.
+Suggested pairings:
+
+Planner and day plan assets            -> trip-planner.html
+Cost and budget assets                 -> trip-planner.html or pricing.html
+Destination and season assets          -> destinations.html or a destination page
+Itinerary and day plan card assets     -> itineraries.html
+Annual leave assets                    -> guide-annual-leave-planning.html
+First trip overseas assets             -> guide-first-international-trip.html
+Free tier and pricing assets           -> pricing.html
+
+
+-----------------------------------------
+COMPLIANCE CHECKLIST BEFORE RUNNING
+-----------------------------------------
+[ ] Every claim about the free tier, trip limits and paid features verified
+    against the live product
+[ ] No price appears in any asset in this file; if one is added it must be
+    current, verifiable and match the Pricing page exactly
+[ ] Destination and itinerary names in assets match pages that exist and are
+    complete
+[ ] No airline, hotel, competitor or trademarked brand names used
+[ ] No phone number in any headline
+[ ] No all-caps words other than AUD and PDF
+[ ] No repeated or excessive punctuation
+[ ] No superlatives, guarantees or unverifiable statistics
+[ ] No fake urgency, scarcity or countdown language
+[ ] Australian English spelling checked: organise, travelled, favourite,
+    kilometre, centre
+[ ] Landing pages reviewed for relevance to each asset group
+[ ] Final review against current Google Ads policies

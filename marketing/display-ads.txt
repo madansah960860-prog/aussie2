@@ -1,0 +1,135 @@
+FIELDNOTE TRAVEL — GOOGLE ADS RESPONSIVE DISPLAY CAMPAIGN ASSETS
+=================================================================
+
+NOTE: All copy in this file is a starting draft. Before running, it must be
+reviewed against the current Google Ads editorial policy and against the
+advertiser's own substantiated claims. Any statement about pricing, features,
+free tiers or trip counts must be verified against the live product and the
+published Pricing page. Character counts in brackets include spaces and were
+counted at the time of writing; re-count after any edit.
+
+Australian English spelling throughout. No all-caps words except the genuine
+acronyms AUD and PDF. No superlatives, no fake urgency, no prices, no third
+party brand names. Every line is written to stand alone, because Google mixes
+assets automatically.
+
+
+-----------------------------------------
+BUSINESS NAME — 25 character maximum (1)
+-----------------------------------------
+Fieldnote Travel [16]
+
+
+-----------------------------------------
+SHORT HEADLINES — 30 character maximum (15)
+-----------------------------------------
+Plan Your Trip Day By Day [25]
+Trip Planner For Australians [28]
+Organise The Whole Trip [23]
+Day Plans With Real Costs [25]
+See The Cost In AUD [19]
+Build An Itinerary [18]
+Travel Times Between Stops [26]
+Family Trips, Sorted [20]
+Group Travel Made Simple [24]
+First Trip Overseas [19]
+Stretch Your Annual Leave [25]
+Budget Your Trip In AUD [23]
+Two Trips Free [14]
+Sample Itineraries [18]
+Destination Field Guides [24]
+
+
+-----------------------------------------
+LONG HEADLINE — 90 character maximum (5)
+-----------------------------------------
+Build a day by day travel plan with stops, travel times and costs in AUD [72]
+A trip organiser written for Australian travellers, with prices in Australian dollars [85]
+Plan around annual leave, school holidays and public holidays in your state [75]
+Keep flights, stays, transfers and day plans together in one place [66]
+Sample itineraries for Tasmania, the Great Ocean Road, Bali and Japan [69]
+
+
+-----------------------------------------
+DESCRIPTIONS — 90 character maximum (10)
+-----------------------------------------
+Add days, add stops, watch the total update as you plan. Free for two trips. [76]
+Each day card lists the stops, the travel time between them and the cost. [73]
+Costs in Australian dollars, distances in kilometres, dates in day month year. [78]
+Seasons written for the Southern Hemisphere, not borrowed from somewhere else. [78]
+Plan once, share a link, and everyone travelling sees the same day plan. [72]
+Passports, visas, insurance and money, in the order they need to happen. [72]
+See how far your annual leave stretches before you commit to dates. [67]
+Long haul from Australia rewards planning. Start with days, not flights. [72]
+Print a clean itinerary, or export a PDF for offline use on a paid plan. [72]
+Free tier or paid plan. Pricing, billing and cancellation are stated up front. [78]
+
+
+-----------------------------------------
+CALL TO ACTION SUGGESTIONS (5)
+-----------------------------------------
+Selected from Google's standard call to action set for Responsive Display ads.
+
+Learn more [10]
+Get started [11]
+Sign up [7]
+See more [8]
+Subscribe [9]
+
+
+-----------------------------------------
+IMAGE ASSET NOTES
+-----------------------------------------
+Not copy, but the display campaign will be rejected or under-served without
+them. Prepare before launch:
+
+Landscape image, 1.91:1, minimum 600 x 314    real travel photography, wide framing
+Square image, 1:1, minimum 300 x 300          same photograph, cropped square
+Portrait image, 4:5, minimum 480 x 600        optional, improves placement coverage
+Logo, square 1:1, minimum 128 x 128           transparent background
+Logo, landscape 4:1, minimum 512 x 128        transparent background
+
+Image rules to follow:
+- Real photographs only. No illustrations, no vector artwork, no generated
+  graphics.
+- No text overlaid on the image. Google penalises heavy text in display assets.
+- No collages, no borders, no drop shadows, no watermarks.
+- Natural light, wide framing, consistent 3:2 or 1.91:1 crops.
+- Confirm the licence for every photograph before it is uploaded.
+- Every image must be relevant to the landing page it serves.
+
+
+-----------------------------------------
+LANDING PAGE MAPPING
+-----------------------------------------
+Whatever an asset promises must appear prominently on the page it lands on.
+Suggested pairings:
+
+Planner and day plan assets            -> trip-planner.html
+Cost and budget assets                 -> trip-planner.html or pricing.html
+Destination and field guide assets     -> destinations.html or a destination page
+Itinerary assets                       -> itineraries.html
+Annual leave assets                    -> guide-annual-leave-planning.html
+First trip overseas assets             -> guide-first-international-trip.html
+Free tier assets                       -> pricing.html
+
+
+-----------------------------------------
+COMPLIANCE CHECKLIST BEFORE RUNNING
+-----------------------------------------
+[ ] The claim "Two Trips Free" verified against the live free tier and the
+    Pricing page, and updated if the limit changes
+[ ] Every feature named in an asset exists in the product today
+[ ] No price appears in any asset in this file; if one is added it must be
+    current, verifiable and match the Pricing page exactly
+[ ] No airline, hotel, competitor or trademarked brand names used
+[ ] No phone number in any headline
+[ ] No all-caps words other than AUD and PDF
+[ ] No repeated or excessive punctuation, no emoji, no gimmicky symbols
+[ ] No superlatives, guarantees or unverifiable statistics
+[ ] No fake urgency, scarcity or countdown language
+[ ] Australian English spelling checked: organise, travelled, favourite,
+    kilometre, centre
+[ ] Image assets licensed, text free and relevant to the landing page
+[ ] Landing pages reviewed for relevance to each asset group
+[ ] Final review against current Google Ads policies
